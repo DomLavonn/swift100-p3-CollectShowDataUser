@@ -65,8 +65,6 @@ struct ContentView: View {
                     }
                 }.pickerStyle(.segmented)
             
-                
-                
                 VStack {
                     HStack{
                         Text("firstname:")
@@ -99,9 +97,6 @@ struct ContentView: View {
                         Spacer()
                         Text(selectMenuItem.rawValue)
                     }
-                    
-                    
-
                 }.padding()
             }
             .textFieldStyle(RoundedBorderTextFieldStyle())
